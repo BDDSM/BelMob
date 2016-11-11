@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b8e2e50-8d50-4dd0-b6b2-2718d8f80194">
+  <producedTypes>
+    <managerType typeId="6e0d55fc-9228-4e8c-a673-5f6a78e0d528" valueTypeId="ae1991a1-83c5-47b4-a7a2-120e6e5e8826"/>
+    <valueManagerType typeId="530b2fc1-ef6d-46da-9f6a-3744454a2f8e" valueTypeId="41ab82e6-4232-4a63-8bd4-2e75f127e55b"/>
+  </producedTypes>
+  <name>ИспользоватьАльтернативнуюКамеру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать альтернативную камеру</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

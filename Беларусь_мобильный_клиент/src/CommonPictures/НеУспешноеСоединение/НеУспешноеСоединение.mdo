@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="753b5617-0df9-4b23-9a86-1765ffa2bdb3">
+  <name>НеУспешноеСоединение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не успешное соединение</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

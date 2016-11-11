@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43db4ee2-52cd-42f0-bdc5-efc53b205c62">
+  <producedTypes>
+    <refType typeId="71d25452-024d-4e9f-80d8-ba1eb6e8821f" valueTypeId="e92bc0ab-0c13-444c-a378-2207737c0a6c"/>
+    <listType typeId="f9550650-60ba-4539-b654-03392c6b4537" valueTypeId="d2d8d95a-aabf-4f31-998f-8464a17446fa"/>
+    <managerType typeId="52b269c2-1a60-4475-99cd-e6f5bcc49366" valueTypeId="223ee7d7-bc8f-4b72-b849-9cfe0d852536"/>
+  </producedTypes>
+  <name>ТипХранимыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип хранимых данных</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fb820d34-982d-4359-816e-33e8716a2e55">
+    <name>Видео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видео</value>
+    </synonym>
+    <comment>video/*</comment>
+  </enumValues>
+  <enumValues uuid="f592976b-29ad-487f-a495-2b3d22f3a3bd">
+    <name>Аудио</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудио</value>
+    </synonym>
+    <comment>audio/*</comment>
+  </enumValues>
+  <enumValues uuid="970933c8-9517-42d5-be3e-61d44791220b">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <comment>image/*</comment>
+  </enumValues>
+  <enumValues uuid="b749fada-8b01-4a4a-b3f4-a640e039f205">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

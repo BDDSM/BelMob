@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f33b14c-1eb7-437e-adfb-d167379601e8">
+  <producedTypes>
+    <objectType typeId="42ab3ec2-0e72-4d07-81b2-01863ed40e75" valueTypeId="bd00d96c-ef47-45db-b311-2d2c7afe6bef"/>
+    <refType typeId="5eda639d-5cc4-4365-aed0-21678018cf07" valueTypeId="2bcba5a0-3313-41ae-87c4-da6c760ac03b"/>
+    <selectionType typeId="23f67c75-8721-4570-bde1-94e5aa8bbca0" valueTypeId="752f6048-1c62-41da-b8b1-901a12cce735"/>
+    <listType typeId="cbdb3073-0336-4365-bc91-c1c847f0a688" valueTypeId="7ea15af8-8059-49a8-9301-61c1bf46398c"/>
+    <managerType typeId="5236159d-9a79-4951-bdb2-3c7df00ed58e" valueTypeId="59104463-52a2-4fd5-b7c7-3de8caa31969"/>
+  </producedTypes>
+  <name>уи_ВидыИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды имущества</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.уи_ВидыИмущества.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.уи_ВидыИмущества.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c149c2a8-f56b-4eb0-909c-c6a4967752b1">
+      <name>ЗданияИСооружения</name>
+      <description>Здания и сооружения</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="b3769706-e8da-4e84-9ea3-b4650e7e2019">
+      <name>ЗемельныеУчастки</name>
+      <description>Земельные участки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="ea67ac1e-db63-4714-9dd4-6733328823a1">
+      <name>МашиныИОборудование</name>
+      <description>Машины и оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="150ca481-586f-476e-b39b-dd35604ffe68">
+      <name>Мебель</name>
+      <description>Мебель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="21844017-a4b8-4754-a76c-b39eb302fd1a">
+      <name>НМА</name>
+      <description>НМА</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="522c9d78-5613-478d-ab9d-e7b70799e266">
+      <name>Оргтехника</name>
+      <description>Оргтехника</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="0d1ee16a-8245-42d1-aaf4-7f2d21beda42">
+      <name>ОхранноеОборудование</name>
+      <description>Охранное оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="c0e4279c-af9b-4434-b30b-934dcc8b7d02">
+      <name>Прочее</name>
+      <description>Прочее</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="5c8ebc2e-b594-4453-a15d-7b5522495025">
+      <name>СервисноеОборудование</name>
+      <description>Сервисное оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="9b618ad4-1d4e-4af3-b3bd-275237b36712">
+      <name>СкладскоеОборудование</name>
+      <description>Складское оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="12e3fe77-ec9d-4560-862f-1953195c370d">
+      <name>ТорговоеОборудование</name>
+      <description>Торговое оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="0f3621b8-65ba-4ae6-878d-d5425162f3dd">
+      <name>ТранспортныеСредства</name>
+      <description>Транспортные средства</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

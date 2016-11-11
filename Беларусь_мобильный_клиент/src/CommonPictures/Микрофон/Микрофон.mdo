@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="977b99ed-d5de-4728-9194-4b1182845a09">
+  <name>Микрофон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Микрофон</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

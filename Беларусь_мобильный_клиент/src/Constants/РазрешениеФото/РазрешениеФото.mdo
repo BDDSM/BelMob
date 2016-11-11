@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67216cfa-e1c2-418a-865c-326330d827a9">
+  <producedTypes>
+    <managerType typeId="aa6f4146-47a4-4931-bbe5-161a7f28a754" valueTypeId="65635dd7-eb9c-4dd0-9fcd-a093bf64ec38"/>
+    <valueManagerType typeId="5fd14b31-b057-4b43-8239-00aa8ed58b9e" valueTypeId="463ebf00-bc0d-4a1c-8b71-d5a059414e04"/>
+  </producedTypes>
+  <name>РазрешениеФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешение фото</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

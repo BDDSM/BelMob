@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="785a02ea-44f2-4b05-b154-b8d175c08595">
+  <producedTypes>
+    <managerType typeId="9dba0a91-43ae-45e2-bb90-b2f4a5156a31" valueTypeId="1ff83585-21a0-4134-87ab-642721771bc3"/>
+    <valueManagerType typeId="6fa8eba3-91aa-43a5-aa29-e604f50d4833" valueTypeId="aaabe5da-3da8-4108-8810-49cbc46ac70d"/>
+  </producedTypes>
+  <name>ИспользуетсяSSL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется SSL</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

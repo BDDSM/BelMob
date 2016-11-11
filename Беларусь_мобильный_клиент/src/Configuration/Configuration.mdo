@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da8f246a-e116-4b3e-b337-242d23af1dea">
+  <name>МегаИнвентаризатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мега инвентаризатор</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="afbfb5a3-e501-439d-81ca-23d3c849e205"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="504f69cb-5ad4-43ff-a497-7278eb59a236"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="eb2cebce-141e-44c1-adba-bdfcc4790af2"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ba43a10a-d85d-4c36-a5d9-2ae71403f5b5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="73969dd3-9f91-4e41-884f-18f598884854"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="74a995d9-8643-46d1-8381-68003e6bd970"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.9</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>DitriX (Lex@dineva.net)</vendor>
+  <version>1</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.9</compatibilityMode>
+  <languages uuid="53109b8c-e0f5-4372-9bc6-53519e3cb94b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Дополнительно</subsystems>
+  <commonPictures>CommonPicture.Адрес</commonPictures>
+  <commonPictures>CommonPicture.Пароль</commonPictures>
+  <commonPictures>CommonPicture.Глаз</commonPictures>
+  <commonPictures>CommonPicture.ПользовательИконка</commonPictures>
+  <commonPictures>CommonPicture.АнимацияОбновления</commonPictures>
+  <commonPictures>CommonPicture.УспешноеСоединение</commonPictures>
+  <commonPictures>CommonPicture.НеУспешноеСоединение</commonPictures>
+  <commonPictures>CommonPicture.Штрихкод</commonPictures>
+  <commonPictures>CommonPicture.ИконкаВнимание</commonPictures>
+  <commonPictures>CommonPicture.НачатьОбмен</commonPictures>
+  <commonPictures>CommonPicture.Микрофон</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.ОбычныеПрава</roles>
+  <commonModules>CommonModule.СоедниненияСБазой</commonModules>
+  <commonModules>CommonModule.Служебный</commonModules>
+  <commonModules>CommonModule.СинхронизацияДанных</commonModules>
+  <commonModules>CommonModule.СлужебныйКлиент</commonModules>
+  <commonCommands>CommonCommand.Авторизация</commonCommands>
+  <constants>Constant.АдресЦентральнойБазы</constants>
+  <constants>Constant.ПользовательЦентральнойБазы</constants>
+  <constants>Constant.Пароль</constants>
+  <constants>Constant.ИспользуетсяSSL</constants>
+  <constants>Constant.ИспользоватьАльтернативнуюКамеру</constants>
+  <constants>Constant.ДатаПоследнегоОбмена</constants>
+  <constants>Constant.Камера</constants>
+  <constants>Constant.РазрешениеФото</constants>
+  <commonForms>CommonForm.Авторизация</commonForms>
+  <commonForms>CommonForm.Настройки</commonForms>
+  <commonForms>CommonForm.ФормаРабочегоСтола</commonForms>
+  <catalogs>Catalog.СотрудникиОрганизаций</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.уи_ВидыИмущества</catalogs>
+  <catalogs>Catalog.уи_СчетаНачисленийАмортизации</catalogs>
+  <catalogs>Catalog.уи_СтатьиЗатрат</catalogs>
+  <catalogs>Catalog.уи_Имущество</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ПодразделенияОрганизаций</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.уи_ИнвентаризацияИмущества</documents>
+  <enums>Enum.уи_ТипыИмущества</enums>
+  <enums>Enum.ТипХранимыхДанных</enums>
+  <informationRegisters>InformationRegister.ДанныеМультимедиа</informationRegisters>
+</mdclass:Configuration>

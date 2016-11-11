@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cad6422-5570-44d0-af04-95d8d95f8fde">
+  <producedTypes>
+    <managerType typeId="a0bb2ef8-58f3-4ecb-8072-3fb7389cc64c" valueTypeId="e630eb4d-4e2e-43bd-88e1-21eab2925dcb"/>
+    <valueManagerType typeId="4f788940-5ae7-4b27-b0a9-0aa5c7c00038" valueTypeId="a19eeda7-a451-4496-b497-18fdbc939c89"/>
+  </producedTypes>
+  <name>Камера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Камера</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
